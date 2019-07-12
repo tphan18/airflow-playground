@@ -1,0 +1,7 @@
+.gitlab
+.idea
+.vscode
+.git*
+venv
+docker*
+Dockerfile

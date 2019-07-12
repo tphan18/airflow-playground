@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  airflow:
+    container_name: airflow
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    volumes:
+      - ./dags:/airflow/dags
